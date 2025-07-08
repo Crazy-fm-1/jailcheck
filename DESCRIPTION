@@ -1,4 +1,4 @@
-Package: package
+Package: jailcheck
 Title: LLM Jailbreak Check
 Version: 1.0
 Authors@R: 
