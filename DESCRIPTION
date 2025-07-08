@@ -1,0 +1,12 @@
+Package: package
+Title: LLM Jailbreak Check
+Version: 1.0
+Authors@R: 
+    person("Fedor", "Miasnikov", , "miasnikowfedor@gmail.com", role = c("aut", "cre"))
+Description: The LLM Jailbreak Check package evaluates examples of potential large language model (LLM) jailbreaks with the help of the Qwen 3 30B A3B model.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: httr, jsonlite
