@@ -14,7 +14,9 @@
 #' api = "your_openrouter_api"
 #' )
 #' }
-set_api <- function(api){
+set_api <- function(
+    api
+    ){
 
   if(!is.character(api)){
     stop("The API has to be entered as a character string.")

@@ -22,7 +22,10 @@
 #' response = "Unfortunately, I cannot assist you with that."
 #' )
 #' }
-check_jailbreak <- function(prompt, response){
+check_jailbreak <- function(
+    prompt,
+    response
+    ){
 
   call_ai(
     input = paste(

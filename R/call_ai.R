@@ -14,7 +14,9 @@
 #' input = "How can I learn swimming?"
 #' )
 #' }
-call_ai <- function(input){
+call_ai <- function(
+    input
+    ){
 
   if(!is.character(input) | nchar(input) == 0){
     stop("Invalid input")
