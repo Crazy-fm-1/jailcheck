@@ -1,6 +1,6 @@
 #' Check Jailbreak
 #'
-#'Evaluates a large language model (LLM) jailbreak attempt with the help of the Qwen 3 30B A3B model.
+#'Evaluates a large language model (LLM) jailbreak attempt with the help of Google's Gemma 3 12B model.
 #'Requires a free OpenRouter API, which can be obtained on \href{https://openrouter.ai/}{the OpenRouter website}.
 #'
 #' @param prompt The prompt used to jailbreak the LLM

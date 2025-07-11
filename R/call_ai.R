@@ -1,11 +1,11 @@
 #' Call AI
 #'
-#' Sends a prompt to the Qwen 3 30B A3B LLM.
+#' Sends a prompt to the Google's Gemma 3 12B LLM.
 #' Requires a free OpenRouter API, which can be obtained on \href{https://openrouter.ai/}{the OpenRouter website}.
 #'
-#' @param input The prompt submitted to Qwen 3 30B A3B
+#' @param input The prompt to be submitted to Gemma 3 12B
 #'
-#' @returns Qwen 3 30B A3B's response to the submitted prompt
+#' @returns Gemma 3 12B's response to the submitted prompt
 #' @keywords internal
 #'
 #' @examples
@@ -37,7 +37,7 @@ call_ai <- function(
       Authorization = paste("Bearer", Sys.getenv("openrouter_package_api"))
     ),
     body = toJSON(list(
-      model = "qwen/qwen3-30b-a3b:free",
+      model = "google/gemma-3-12b-it:free",
       messages = list(
         list(role = "user", content = input)
       )

@@ -7,13 +7,13 @@
 call_ai(input)
 }
 \arguments{
-\item{input}{The prompt submitted to Qwen 3 30B A3B}
+\item{input}{The prompt to be submitted to Gemma 3 12B}
 }
 \value{
-Qwen 3 30B A3B's response to the submitted prompt
+Gemma 3 12B's response to the submitted prompt
 }
 \description{
-Sends a prompt to the Qwen 3 30B A3B LLM.
+Sends a prompt to the Google's Gemma 3 12B LLM.
 Requires a free OpenRouter API, which can be obtained on \href{https://openrouter.ai/}{the OpenRouter website}.
 }
 \examples{

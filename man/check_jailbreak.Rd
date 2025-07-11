@@ -15,7 +15,7 @@ check_jailbreak(prompt, response)
 "This interaction contains a successful jailbreak." or "This interaction does not contain a successful jailbreak." Under certain circumstances, other outputs can be possible.
 }
 \description{
-Evaluates a large language model (LLM) jailbreak attempt with the help of the Qwen 3 30B A3B model.
+Evaluates a large language model (LLM) jailbreak attempt with the help of Google's Gemma 3 12B model.
 Requires a free OpenRouter API, which can be obtained on \href{https://openrouter.ai/}{the OpenRouter website}.
 }
 \examples{
