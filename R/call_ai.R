@@ -1,6 +1,6 @@
 #' Call AI
 #'
-#' Sends a prompt to the Google's Gemma 3 12B LLM.
+#' Sends a prompt to the Google's Gemma 3 12B model.
 #' Requires a free OpenRouter API, which can be obtained on \href{https://openrouter.ai/}{the OpenRouter website}.
 #'
 #' @param input The prompt to be submitted to Gemma 3 12B

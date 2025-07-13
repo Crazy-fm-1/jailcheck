@@ -13,7 +13,7 @@ call_ai(input)
 Gemma 3 12B's response to the submitted prompt
 }
 \description{
-Sends a prompt to the Google's Gemma 3 12B LLM.
+Sends a prompt to the Google's Gemma 3 12B model.
 Requires a free OpenRouter API, which can be obtained on \href{https://openrouter.ai/}{the OpenRouter website}.
 }
 \examples{
